@@ -13,6 +13,7 @@ then
   fi
   #Use nina as build system
   cmake -G Ninja \
+    -D EXECUTABLE=$1 \
     -D CMAKE_BUILD_TYPE=RelWithDebInfo \
     -D CMAKE_CXX_COMPILER=$(which g++) \
     -D CMAKE_LINKER=$(which lld) \
