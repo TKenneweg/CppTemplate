@@ -1,3 +1,4 @@
 sudo apt install cmake
 sudo apt install ninja-build
 sudo apt -y install lld
+sudo apt-get install libopencv-dev
